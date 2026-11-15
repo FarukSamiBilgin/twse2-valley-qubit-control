@@ -1,0 +1,65 @@
+{
+  "delta_SO_valence_meV_lit": [
+    450,
+    470
+  ],
+  "notes": {
+    "qubit": "|0>=|K,up>, |1>=|K',down> Kramers pair; nu=1 Mott: 1 hole / moire cell",
+    "g_eff": "Delta_Z = g_eff mu_B Bz between the Kramers pair; g_eff = 2(1 + 2 + m_orb/mu_B): spin + W d(+/-2) atomic + moire-orbital (model)",
+    "U": "e^2/(4 pi eps0 eps_r l_W), eps_r=5 (hBN); order-of-magnitude only"
+  },
+  "angles": [
+    {
+      "theta_deg": 1.43,
+      "aM_nm": 13.290561777818658,
+      "W1_meV": 0.0688253699061967,
+      "eps12_meV": 3.722394632510813,
+      "moire_depth_meV": 86.6950337140793,
+      "mstar_edge_me": 13.406472932665924,
+      "m_orb_muB_top_band_at_kappa": -1.8475279520787264,
+      "g_eff_kramers": 2.304944095842547,
+      "wannier_length_nm": 1.0453582973853628,
+      "U_estimate_meV_epsr5": 275.49597178337996,
+      "U_over_W1": 4002.8258788708035
+    },
+    {
+      "theta_deg": 2.0,
+      "aM_nm": 9.502987487484548,
+      "W1_meV": 4.392652099755374,
+      "eps12_meV": 5.919760559757762,
+      "moire_depth_meV": 86.6950337140793,
+      "mstar_edge_me": 1.1405759649997196,
+      "m_orb_muB_top_band_at_kappa": -0.9230703815547749,
+      "g_eff_kramers": 4.15385923689045,
+      "wannier_length_nm": 1.636707830577925,
+      "U_estimate_meV_epsr5": 175.95809992447423,
+      "U_over_W1": 40.05737215889993
+    },
+    {
+      "theta_deg": 3.0,
+      "aM_nm": 6.3357270698402175,
+      "W1_meV": 19.64370941697104,
+      "eps12_meV": 3.027138630284783,
+      "moire_depth_meV": 86.6950337140793,
+      "mstar_edge_me": 0.6772053776051247,
+      "m_orb_muB_top_band_at_kappa": -0.3131908536389319,
+      "g_eff_kramers": 5.373618292722136,
+      "wannier_length_nm": 1.52244028115859,
+      "U_estimate_meV_epsr5": 189.1647268954521,
+      "U_over_W1": 9.629786456320955
+    },
+    {
+      "theta_deg": 5.08,
+      "aM_nm": 3.7423693872591954,
+      "W1_meV": 83.53137531309295,
+      "eps12_meV": -37.635340272729195,
+      "moire_depth_meV": 86.6950337140793,
+      "mstar_edge_me": 0.4830757883989473,
+      "m_orb_muB_top_band_at_kappa": -0.03513080529475175,
+      "g_eff_kramers": 5.929738389410496,
+      "wannier_length_nm": 1.273185381700316,
+      "U_estimate_meV_epsr5": 226.19801023429275,
+      "U_over_W1": 2.707940691583918
+    }
+  ]
+}

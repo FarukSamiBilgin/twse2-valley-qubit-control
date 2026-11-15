@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this material, please cite it as below."
+title: "Electrical versus optical control of valley qubits in twisted WSe2: a same-material comparison on a doubly anchored numerical pipeline"
+authors:
+  - family-names: Bilgin
+    given-names: Faruk Sami
+    affiliation: Independent Researcher
+    orcid: "https://orcid.org/0009-0001-9064-4410"
+type: software
+license: MIT
+repository-code: "https://github.com/FarukSamiBilgin/twse2-valley-qubit-control"
+date-released: 2026-11-15

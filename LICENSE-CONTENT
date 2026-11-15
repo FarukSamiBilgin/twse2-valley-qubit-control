@@ -1,0 +1,5 @@
+Code in this repository (scripts/, dft/ input generators) is released under the MIT License (see LICENSE).
+
+All text, figures and data (README.md, paper/, figures/, results/, dft/ input files)
+are released under the Creative Commons Attribution 4.0 International License (CC BY 4.0),
+https://creativecommons.org/licenses/by/4.0/ . Please cite the work as given in CITATION.cff.

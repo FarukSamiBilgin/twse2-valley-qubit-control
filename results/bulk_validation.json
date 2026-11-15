@@ -1,0 +1,37 @@
+{
+  "gamma_sixstate": {
+    "analytic_meV": [
+      -75.1791119602107,
+      -86.08584375342082,
+      -99.7468558790454,
+      -111.17911196021072,
+      -135.74685587904537,
+      -158.08584375342082
+    ],
+    "numeric_top6_meV": [
+      -74.95085632909225,
+      -85.72941437469088,
+      -97.7491022519251,
+      -107.12061067847,
+      -135.11680299759547,
+      -154.92229434869859
+    ],
+    "max_abs_diff_meV": 4.058501281740718
+  },
+  "theta_5p08": {
+    "band_max_at_kappa": true,
+    "dist_max_to_kappa_over_g": 0.0,
+    "fitted_hole_mass_me": 0.4830757883989473,
+    "wurzburg_reference_me": 0.5,
+    "mass_dev_percent": -3.384842320210535,
+    "W1_bandwidth_meV": 83.531375313104
+  },
+  "magic_angle": {
+    "theta_m_deg": 1.4200000000000004,
+    "reference_deg": 1.43,
+    "W1_at_magic_meV": 0.07401614119645217,
+    "eps12_at_magic_meV": 3.643560891035243,
+    "reference_W1_meV": 0.1,
+    "reference_eps12_meV": 3.7
+  }
+}

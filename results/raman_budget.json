@@ -1,0 +1,216 @@
+{
+ "meta": {
+  "model": "3-level Lambda, Lindblad; corrected ac-Stark sign",
+  "gamma_phi_ueV": 50.0,
+  "T2q_ns": 100.0,
+  "grid": {
+   "Delta_meV": [
+    0.8,
+    25.0,
+    14
+   ],
+   "Omega1_meV": [
+    0.03,
+    1.2,
+    14
+   ],
+   "spacing": "geometric"
+  },
+  "explicit_integration_up_to_ns": 5.0,
+  "beyond": "adiabatic-elimination estimate, ~2x above explicit integration on spot checks (conservative)"
+ },
+ "sensitivity": [
+  {
+   "beta": 1.0,
+   "Gamma_ueV": 20.0,
+   "min_error": 0.003253720660636339,
+   "t_gate_ps": 223.34375933982236,
+   "Delta_meV": 25.0,
+   "Omega1_meV": 0.6803156759304598
+  },
+  {
+   "beta": 1.0,
+   "Gamma_ueV": 50.0,
+   "min_error": 0.004050498148093995,
+   "t_gate_ps": 223.34375933982236,
+   "Delta_meV": 25.0,
+   "Omega1_meV": 0.6803156759304598
+  },
+  {
+   "beta": 1.0,
+   "Gamma_ueV": 200.0,
+   "min_error": 0.008610426451096442,
+   "t_gate_ps": 126.62021716676752,
+   "Delta_meV": 25.0,
+   "Omega1_meV": 0.9035368343994352
+  },
+  {
+   "beta": 1.0,
+   "Gamma_ueV": 1000.0,
+   "min_error": 0.03254081332061931,
+   "t_gate_ps": 125.9048487081982,
+   "Delta_meV": 25.0,
+   "Omega1_meV": 0.9035368343994352
+  },
+  {
+   "beta": 0.5,
+   "Gamma_ueV": 20.0,
+   "min_error": 0.0037308979707726397,
+   "t_gate_ps": 253.24043433353503,
+   "Delta_meV": 25.0,
+   "Omega1_meV": 0.9035368343994352
+  },
+  {
+   "beta": 0.5,
+   "Gamma_ueV": 50.0,
+   "min_error": 0.004762656498069617,
+   "t_gate_ps": 143.56953104711857,
+   "Delta_meV": 25.0,
+   "Omega1_meV": 1.2
+  },
+  {
+   "beta": 0.5,
+   "Gamma_ueV": 200.0,
+   "min_error": 0.010467218769857012,
+   "t_gate_ps": 143.56953104711857,
+   "Delta_meV": 25.0,
+   "Omega1_meV": 1.2
+  },
+  {
+   "beta": 0.5,
+   "Gamma_ueV": 1000.0,
+   "min_error": 0.03947573889183076,
+   "t_gate_ps": 141.94727645901554,
+   "Delta_meV": 25.0,
+   "Omega1_meV": 1.2
+  },
+  {
+   "beta": 0.3,
+   "Gamma_ueV": 20.0,
+   "min_error": 0.00501043613269847,
+   "t_gate_ps": 239.28255174519762,
+   "Delta_meV": 25.0,
+   "Omega1_meV": 1.2
+  },
+  {
+   "beta": 0.3,
+   "Gamma_ueV": 50.0,
+   "min_error": 0.006607337904548483,
+   "t_gate_ps": 239.28255174519762,
+   "Delta_meV": 25.0,
+   "Omega1_meV": 1.2
+  },
+  {
+   "beta": 0.3,
+   "Gamma_ueV": 200.0,
+   "min_error": 0.014839585083140094,
+   "t_gate_ps": 237.93067292177844,
+   "Delta_meV": 25.0,
+   "Omega1_meV": 1.2
+  },
+  {
+   "beta": 0.3,
+   "Gamma_ueV": 1000.0,
+   "min_error": 0.055056852504070775,
+   "t_gate_ps": 233.87503645152086,
+   "Delta_meV": 25.0,
+   "Omega1_meV": 1.2
+  },
+  {
+   "beta": 0.1,
+   "Gamma_ueV": 20.0,
+   "min_error": 0.01293306938895522,
+   "t_gate_ps": 713.7920187653353,
+   "Delta_meV": 25.0,
+   "Omega1_meV": 1.2
+  },
+  {
+   "beta": 0.1,
+   "Gamma_ueV": 50.0,
+   "min_error": 0.017419828742030075,
+   "t_gate_ps": 713.7920187653353,
+   "Delta_meV": 25.0,
+   "Omega1_meV": 1.2
+  },
+  {
+   "beta": 0.1,
+   "Gamma_ueV": 200.0,
+   "min_error": 0.03883163774427845,
+   "t_gate_ps": 705.6807458248202,
+   "Delta_meV": 25.0,
+   "Omega1_meV": 1.2
+  },
+  {
+   "beta": 0.1,
+   "Gamma_ueV": 1000.0,
+   "min_error": 0.05236810985936491,
+   "t_gate_ps": 5126.769714414361,
+   "Delta_meV": 0.8,
+   "Omega1_meV": 0.0933389240924061
+  },
+  {
+   "beta": 0.03,
+   "Gamma_ueV": 20.0,
+   "min_error": 0.04000384564992965,
+   "t_gate_ps": 2365.7879409835923,
+   "Delta_meV": 25.0,
+   "Omega1_meV": 1.2
+  },
+  {
+   "beta": 0.03,
+   "Gamma_ueV": 50.0,
+   "min_error": 0.053114915384057215,
+   "t_gate_ps": 2338.7503645152087,
+   "Delta_meV": 25.0,
+   "Omega1_meV": 1.2
+  },
+  {
+   "beta": 0.03,
+   "Gamma_ueV": 200.0,
+   "min_error": 0.035185727276467516,
+   "t_gate_ps": 103.3916924151001,
+   "Delta_meV": 0.8,
+   "Omega1_meV": 1.2
+  },
+  {
+   "beta": 0.03,
+   "Gamma_ueV": 1000.0,
+   "min_error": 0.0050868314579045615,
+   "t_gate_ps": 5400.711531873968,
+   "Delta_meV": 0.8,
+   "Omega1_meV": 0.16463931800145143
+  },
+  {
+   "beta": 0.01,
+   "Gamma_ueV": 20.0,
+   "min_error": 0.047584147747125605,
+   "t_gate_ps": 965.0469330118425,
+   "Delta_meV": 0.8,
+   "Omega1_meV": 0.6803156759304598
+  },
+  {
+   "beta": 0.01,
+   "Gamma_ueV": 50.0,
+   "min_error": 0.01434140765721803,
+   "t_gate_ps": 547.1137971138069,
+   "Delta_meV": 0.8,
+   "Omega1_meV": 0.9035368343994352
+  },
+  {
+   "beta": 0.01,
+   "Gamma_ueV": 200.0,
+   "min_error": 0.003642321070632115,
+   "t_gate_ps": 310.17507724530026,
+   "Delta_meV": 0.8,
+   "Omega1_meV": 1.2
+  },
+  {
+   "beta": 0.01,
+   "Gamma_ueV": 1000.0,
+   "min_error": 0.0005802744648990554,
+   "t_gate_ps": 3479.0645768204395,
+   "Delta_meV": 0.8,
+   "Omega1_meV": 0.29040515835759834
+  }
+ ]
+}

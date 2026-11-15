@@ -1,0 +1,63 @@
+{
+  "theta0_deg": 2.0,
+  "aM_nm": 9.271231134334677,
+  "S_hole_meV_per_deg": -7.731201528570786,
+  "xi_nm": 150.0,
+  "channel_bin_ueV": 100.0,
+  "cases": [
+    {
+      "sigma_theta_deg": 0.02,
+      "f_electron": 1.0,
+      "sigma_E_ueV": 154.62403057141572,
+      "n_channels_95pct": 7,
+      "frac_addressable_single_freq": 0.1506076388888889
+    },
+    {
+      "sigma_theta_deg": 0.02,
+      "f_electron": 1.5,
+      "sigma_E_ueV": 231.9360458571236,
+      "n_channels_95pct": 10,
+      "frac_addressable_single_freq": 0.09678819444444445
+    },
+    {
+      "sigma_theta_deg": 0.02,
+      "f_electron": 2.0,
+      "sigma_E_ueV": 309.24806114283143,
+      "n_channels_95pct": 13,
+      "frac_addressable_single_freq": 0.07161458333333333
+    },
+    {
+      "sigma_theta_deg": 0.036,
+      "f_electron": 1.0,
+      "sigma_E_ueV": 278.32325502854826,
+      "n_channels_95pct": 12,
+      "frac_addressable_single_freq": 0.13932291666666666
+    },
+    {
+      "sigma_theta_deg": 0.036,
+      "f_electron": 1.5,
+      "sigma_E_ueV": 417.4848825428224,
+      "n_channels_95pct": 17,
+      "frac_addressable_single_freq": 0.09505208333333333
+    },
+    {
+      "sigma_theta_deg": 0.036,
+      "f_electron": 2.0,
+      "sigma_E_ueV": 556.6465100570965,
+      "n_channels_95pct": 23,
+      "frac_addressable_single_freq": 0.0763888888888889
+    }
+  ],
+  "wurzburg_dot_sensitivity": [
+    {
+      "sigma_theta_deg": 0.02,
+      "dDelta1S_over_Delta1S_pct": 2.48,
+      "sigma_f_qubit_ueV_at_400ueV": 9.9
+    },
+    {
+      "sigma_theta_deg": 0.036,
+      "dDelta1S_over_Delta1S_pct": 4.46,
+      "sigma_f_qubit_ueV_at_400ueV": 17.9
+    }
+  ]
+}
